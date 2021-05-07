@@ -22,11 +22,13 @@ For example:
 // pages/myCoolApp.js
 // This will be accessible at a route which matches the filename, e.g. http://localhost:3000/myCoolApp
 
+import ApplicationCode from './myCoolApp/Index.js';
+
 export default function MyCoolApp() {
   return (
     // There will likely be a global wrapper component here to provide navigation styles, etc.
     <main>
-      { The rest of your application HTML }
+      <ApplicationCode />
     </main>
   )
 }
