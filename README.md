@@ -38,7 +38,7 @@ There is a total prize pool of **$7,000** for awards. Unlike prizes, individual 
 
 | Award          | Value  | Description |
 |----------------|--------|-------------|
-| TODO           | $1,000 |             |
+| Best UI / UX   | $1,000 |             |
 | TODO           | $1,000 |             |
 | TODO           | $1,000 |             |
 | Judge's choice | $1,000 |             |
