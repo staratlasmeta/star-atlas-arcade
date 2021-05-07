@@ -6,7 +6,7 @@ Welcome to the Star Atlas Arcade. Built for the 2021 Solana hackathon, this is a
 
 Star Atlas is excited to contribute to the growth of blockchain mechanics in the video game industry. Our vision is for the Arcade to grow over the years to showcase and promote community projects which promote the use of next-generation tech in the gaming space.
 
-![Star Atlas Arcade - Banner](./img/ban.png)
+![Star Atlas Arcade - Banner](./public/banner.png)
 
 ## Contributing
 
@@ -47,7 +47,7 @@ There is a total prize pool of **$7,000** for awards. Unlike prizes, individual 
 
 1. Build your project
 2. Open a pull request against this repository
-    - TODO: we'll provide a simple way to integrate your webpage into our site
+    - See CONTRIBUTING.md for more details
     - Include any relevant environment variables or constraints required for your project to run
 3. When the hackathon ends, we'll announce winners and distribute the prize pool accordingly
 
