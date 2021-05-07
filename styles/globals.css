@@ -1,0 +1,132 @@
+@font-face {
+  font-family: tungstenBook;
+  src: url("./fonts/Tungsten-Book.otf");
+}
+
+@font-face {
+  font-family: tungstenLight;
+  src: url("./fonts/Tungsten-Light.otf");
+}
+
+@font-face {
+  font-family: tungstenBold;
+  src: url("./fonts/Tungsten-Bold.otf");
+}
+
+@font-face {
+  font-family: industryMedium;
+  src: url("./fonts/Industry-Medium.ttf");
+}
+
+@font-face {
+  font-family: graphik;
+  src: url("./fonts/Graphik-Regular.ttf");
+}
+
+@font-face {
+  font-family: graphikCompact;
+  src: url("./fonts/GraphikCompact-Regular.ttf");
+}
+
+@font-face {
+  font-family: graphikCompactMedium;
+  src: url("./fonts/GraphikCompact-Medium.ttf");
+}
+
+@font-face {
+  font-family: graphikCompactBold;
+  src: url("./fonts/GraphikCompact-Bold.ttf");
+}
+
+@font-face {
+  font-family: sourceCodePro;
+  src: url('./fonts/SourceCodePro-Regular.ttf');
+}
+
+:root {
+  --black-0: #211f26;
+  --black-1: #2d2b32;
+  --black-2: #201f27;
+  --black-3: #18171f;
+  --black-4: #111111;
+  --black-5: #191820;
+  --black-6: #1e1d25;
+  --black-7: #1a1921;
+  --black-8: #1b1a22;
+  --black-9: #1e1d25;
+  --black-10: #222129;
+  --black-11: #2b2a32;
+  --black-12: #2f2d3d;
+  --gray-0: #57565C;
+  --gray-1: #404046;
+  --gray-2: #35343b;
+  --gray-3: #929296;
+  --red-0: #fe3131;
+  --red-1: #420509;
+  --gold-0: #ffbe4d;
+  --gold-1: #2e2514;
+  --gold-2: #d0a349;
+  --gold-3: #644f29;
+  --green-0: #172E14;
+  --green-1: #4DFF70;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: graphik, system-ui, sans-serif;
+  background: var(--black-8);
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gray-2);
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gray-3);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray-0);
+  background: #555;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: unset;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  display: block;
+}
