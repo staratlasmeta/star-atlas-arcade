@@ -47,7 +47,7 @@ There is a total prize pool of **$7,000** for awards. Unlike prizes, individual 
 
 1. Build your project
 2. Open a pull request against this repository
-    - See CONTRIBUTING.md for more details
+    - See [CONTRIBUTING](./CONTRIBUTING.md) for more details
     - Include any relevant environment variables or constraints required for your project to run
 3. When the hackathon ends, we'll announce winners and distribute the prize pool accordingly
 
